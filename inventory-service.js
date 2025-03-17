@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 // Health check endpoint
 app.get('/health', (req, res) => res.status(200).send('OK'));
 
-app.get('/salma', (req, res) => res.status(200).send('salma el hazal'));
+app.get('/salma', (req, res) => res.status(200).send('salma el hazal salma'));
 
 // Unified inventory update endpoint
 app.post('/inventory/update', (req, res) => {
